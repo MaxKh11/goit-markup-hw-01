@@ -19,6 +19,20 @@ body {
 }
 
 /* HEADER */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.second-part-logo {
+  color: #000000;
+}
+
 .menu-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -56,6 +70,19 @@ body {
   color: #757575;
 }
 
+/* HERO */
+.hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
 .main-button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -73,6 +100,28 @@ body {
 
 .main-button:hover,
 .main-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* Наши преимущества */
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.text-in-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
