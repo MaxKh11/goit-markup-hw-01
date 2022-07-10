@@ -30,7 +30,7 @@ body {
 }
 
 .second-part-logo {
-  color: #000000;
+  color: #212121;
 }
 
 .menu-item {
@@ -39,6 +39,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-link {
   color: #212121;
 }
 
@@ -70,6 +74,11 @@ body {
   color: #757575;
 }
 
+.phone-number:hover,
+.phone-number:focus {
+  color: #2196f3;
+}
+
 /* HERO */
 .hero {
   font-family: "Roboto", sans-serif;
@@ -80,7 +89,7 @@ body {
   /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .main-button {
@@ -105,6 +114,10 @@ body {
   border-radius: 4px;
 }
 
+.background-hero {
+  background-color: #2f303a;
+}
+
 /* Наши преимущества */
 .title {
   font-family: "Roboto", sans-serif;
@@ -124,4 +137,62 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+.name-command {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.name-position {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.background-command {
+  background-color: #f5f4fa;
+}
+
+/* FOOTER */
+.address {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  font-style: normal;
+}
+
+.footer {
+  font-style: normal;
+}
+
+.second-part-logo-footer {
+  color: #ffffff;
+}
+
+.background-footer {
+  background-color: #2f303a;
 }
